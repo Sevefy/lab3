@@ -2,7 +2,7 @@
 h1{
     font-size: 50px;
     color: rgb(255, 255, 255);
-    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 form:not(form.formHome){
     position: absolute;
@@ -40,7 +40,7 @@ span#passshow{
     transform: translateX(750%) translateY(250%);
 }
 form button:not(button#bhome), .form input, h1{
-    font-family: "Rock Salt";
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form input,  button{
     border-color: color-mix(in srgb, rgba(141, 63, 63, 0.349), rgba(99, 83, 135, 0.928));
