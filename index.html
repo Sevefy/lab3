@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Авторизация</title>
+</head>
+<body>
+    <div class="tabline">
+    <a href = "reg.html ">Регистрация</a>
+
+</div>
+    <form class = "form">
+        <h1>Вход</h1>
+            <p>
+                <input id="login"  autofocus type="text" placeholder="login" required>
+            </p>
+            <p>
+                <input type="password" placeholder="password" id="myInput" required>
+            </p>
+            <p>
+                <button type="button" onclick="gohome()"><script src="gohome.js"></script>
+                    Войти</button>
+            </p>
+            
+    <span id="passshow"><input type="checkbox"  onclick="myFunction()"></span>
+    <script src="showhide_pass.js"></script>
+
+</form>   
+</body>
+</html>

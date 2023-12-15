@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Регистрация</title>
+</head>
+<body>
+    <div class="tabline">
+    <a href = "index.html">Вход</a>
+    </div>
+    <div id="main">
+    <form class = "form">
+        <h1>Регистрация</h1>
+
+                <p>
+                    <input autofocus placeholder="Придумайте login" type="text" id="login" required>
+                </p>
+                <p>
+                    <input placeholder="Придумайте пароль" type="text" id="inputpass" required>
+                </p>
+                <p>
+                    <input placeholder="Повторите пароль" type="text" id="check" required>
+                </p>
+                <p><button type="button" onclick="checkpass()">
+                    Регистрация
+                </button></p>
+                <script src="checkpass.js"></script>
+
+        </tbody>
+    </form> 
+    </div>   
+</body>
+</html>

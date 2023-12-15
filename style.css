@@ -1,0 +1,89 @@
+
+h1{
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+}
+form:not(form.formHome){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid black;
+    padding:50px 40px 100px;
+    border-radius: 10px 10px 10px 10px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 50px 25px rgba(189, 183, 107, 0.305);
+    
+}
+form.formHome textarea{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 50px 25px rgba(189, 183, 107, 0.305);
+}
+button#bhome{
+    background-image: url(image/iconhome.png);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 14px 14px;
+    border-radius: 10px;
+}
+
+span#passshow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(750%) translateY(250%);
+}
+form button:not(button#bhome), .form input, h1{
+    font-family: "Rock Salt";
+}
+form input,  button{
+    border-color: color-mix(in srgb, rgba(141, 63, 63, 0.349), rgba(99, 83, 135, 0.928));
+    border-radius: 10px; 
+    margin: 2px;
+    padding: 5px;
+}
+.tabline{
+    padding: 5px 10px 5px 1px;
+    overflow: hidden;
+    background-color: rgba(148, 132, 152, 0.856);
+    font-family: "Rock Salt";
+    display: flex;
+    justify-content: start;
+}
+
+.tabline a{
+    font-size: 26px;
+    color: white;
+    padding: 1px 7px;
+    text-decoration: dotted;
+}
+.tabline a:hover{
+    background-color: rgba(97, 38, 112, 0.086);
+    
+}
+form input{
+    font-size: large;
+}
+form button:hover, .form input:hover{
+    border-color: color-mix(in srgb, rgb(68, 90, 68), rgba(121, 100, 100, 0.489));
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+form {
+    text-align: center;
+}
+form button{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(420%);
+    position: absolute;
+}
